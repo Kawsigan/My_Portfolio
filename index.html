@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawsigan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom styles here */
+        /* Example: */
+        body {
+            background-image:url("bg2.png");
+            background-size: cover;
+        }
+        .jumbotron {
+            background-image: url("bg.png");
+            background-size: cover;
+            color: rgb(255, 255, 255);
+        }
+        .navbar {
+            background-image:url("bg2.png");
+            background-size: cover;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: white;
+        }
+        .navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:hover {
+            background-color: #343a40;
+        }
+        .nav-link {
+            color: rgb(255, 255, 255) !important;
+        }
+        .nav-link:hover {
+            color: #161615 !important;
+        }
+        .project-card {
+            margin-bottom: 20px;
+            border-color:black ;
+
+        }
+        .c
+        {
+           font-size: large;
+           padding-left:38%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Kawsigan.S</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="jumbotron text-center">
+        <h1>Kawsigan.S</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 id ="about"class="text-center mb-4">About Me</h2>
+        <p> I'm a passionate and creative web developer with a deep love for turning ideas into beautifully crafted, user-friendly websites and web applications.
+                            My journey in the world of web development began [mention when and how you started]. 
+             Since then, I've been on an exciting adventure, constantly learning and growing in this ever-evolving field.</p>
+             <br>
+             <br>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="p1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Passengers Safety in Public Transport</h5>
+                        <p class="card-text">This device used to control the crowd in buses. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="p2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Parking Using IOT</h5>
+                        <p class="card-text">This system is used to allign the vechicle using some sensors.</p>
+                    </div>
+                </div>
+            </div>
+             <!-- Project 3 -->
+             <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="p3.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">OCR detection using Deep learning</h5>
+                        <p class="card-text">This System will extract the text and number plates in anuy vechicle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <p class ="c">kawsigansenthilvel2003@gmail.com</p>
+    </section>
+
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
